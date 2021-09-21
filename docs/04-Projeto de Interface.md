@@ -24,11 +24,36 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ![Exemplo de Wireframe](img/wireframe-example.png)
 
+## Tela de Login
+
 Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam uma estrutura comum que é apresentada na Figura X. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles:
+
 ● Logo - Logotipo do Sistema;
+
 ● Entrar - O usuário fazer o login, se possuir conta ja existente para usar a aplicação;
+
 ● Registrar - O usuário que não obtiver conta, fazer o cadastro imediato para poder usar a aplicação.
 
-![Exemplo de Wireframe-Logo](img/Wireframe Login.jpeg)
+![Exemplo de Wireframe-Logo](img/WireframeLogin.jpeg)
+ 
+ ## Tela Inicial do Usuário
+ 
+ Tela inicial que o usuário obterá estas informações ao logar em sua conta. Com base na estrutura padrão o bloco Conteúdo traz os serviços disponiveis naquela região.
+ 
+ ● O componente Cabeçalho nos mostra 2 elementos: Perfil do usuário onde pode ver suas informações cadastrais, barra de pesquisa para que possa pesquisar um serviço/ou prestador de serviços específico.
+ 
+ ![Exemplo de Tela Inicial](img/WireframeTelaInicial.jpeg)
+ 
+ ## Tela de Serviços do Usuário 
+ 
+ A Tela de Serviços nos traz quando o usuário escolhe um serviço ou um prestador para lhe atender, podemos ver assim na tela. 
+ 
+ ● Cabeçalho: nome da Loja (Prestador do serviço) e a logo da mesma;
+ 
+ ● Conteúdo: Mapa de localização (onde a loja esta localizada);
+ 
+ ● Rodapé: Informações do prestador de serviços, como número, CNPJ/CPF, e-mail, entre outros.
+ 
+ ![Exemplo de Tela Inicial](img/WireframeServiços.jpeg)
  
 
