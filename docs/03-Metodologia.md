@@ -13,7 +13,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 > 
 > https://www.figma.com/file/DOCxZmvBGWwBiDFcS1EELF/Untitled?node-id=0%3A1
 > 
-> https://trello.com/b/LCZPX9Fg/jogos-cl%C3%A1ssicos
+> Quadro backlog hospedado no github
 
 
 ## Gestão de Código Fonte
