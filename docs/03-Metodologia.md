@@ -66,3 +66,13 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 ●	Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
 ●	Locked: Quando alguma coisa impede a conclusão da tarefa, ela é movida para esta lista juntamente com um comentário sobre o que está travando a tarefa.
+
+Imagem de backlog 
+Backlog.png
+
+
+⦁	Documentação
+⦁	Desenvolvimento 
+⦁	Infraestrutura
+⦁	Testes
+⦁	Gerência de Projetos.
