@@ -68,11 +68,16 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 ●	Locked: Quando alguma coisa impede a conclusão da tarefa, ela é movida para esta lista juntamente com um comentário sobre o que está travando a tarefa.
 
 Imagem de backlog 
-Backlog.png
+![Exemplo backlog github ](img/Backlog.png)
 
 
 ⦁	Documentação
+
 ⦁	Desenvolvimento 
+
 ⦁	Infraestrutura
+
 ⦁	Testes
+
 ⦁	Gerência de Projetos.
+
