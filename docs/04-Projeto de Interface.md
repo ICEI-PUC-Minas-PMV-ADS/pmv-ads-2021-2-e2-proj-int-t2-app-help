@@ -18,7 +18,7 @@ O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem internamen
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas de Fluxo”.
 
 > **Links Úteis**:
-> - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
+> - https://www.figma.com/file/9loqmKmrq50LaNagk5OVmp/Untitled?node-id=0%3A1
 
 ## Wireframes
 
