@@ -22,7 +22,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+![Exemplo de Wireframe](img/wireframe-exx.png)
 
 ## Tela de Login
 
