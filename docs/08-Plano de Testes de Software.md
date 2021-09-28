@@ -1,6 +1,5 @@
 # Plano de Testes de Software
-
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface
+Pré-requisitos: 
 6.1 Plano de Testes de Software
 Requisitos para realização do teste:
 Site publicado na Internet
