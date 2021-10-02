@@ -15,7 +15,7 @@ Visando esse enquadramento, apresenta-se a ideia de criar uma aplicação com o 
 * Gerald Gabriel dos Santos
 * Gustavo Luiz Silva de Souza 
 * Rafael Augusto Domingos Batista
-* Rafael Silva 
+* Rafael Batista da Silva
 
 ## Orientador
 
