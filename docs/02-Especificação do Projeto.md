@@ -1,35 +1,36 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Levando em consideração os fatores mencionados, torna-se necessário o desenvolvimento de uma aplicação que possa trazer comodidade e segurança para o condutor, construindo uma ferramenta que possa auxiliar na resolução de situações atípicas envolvendo o veículo e no cenário atual torna-se viável, pois além de ajudar o condutor, a aplicação estará contribuindo para o prestador angariar clientes e consequentemente ter um retorno financeiro. Atentando-se às necessidades dos condutores, o fator segurança também se destaca como uma das justificativas que corrobora com o intuito da aplicação.
 
 ## Personas
+![Exemplo de Flluxo de Código](img/persona1.jpeg)
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+![Exemplo de Flluxo de Código](img/persona2.jpeg)
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+![Exemplo de Flluxo de Código](img/persona3.jpeg)
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+![Exemplo de Flluxo de Código](img/persona4.jpeg)
+
+![Exemplo de Flluxo de Código](img/persona5.jpeg)
 
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                 |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|----------------------------------------------------|----------------------------------------|
+|Fernanda Lopes      | visitar vários clientes de forma efetiva e segura. | conseguir atender aos clientes sem atrasos ou com imprevistos minimizados.|
+|Fernanda Lopes |conseguir resolver os imprevistos na estrada de forma rápida, prática e segura  |evitar impactos significativos no dia a dia que atrapalham sua jornada de trabalho |
+ Renato Silva | apresentar vários imóveis para clientes, normalmente entre cidades pequenas | evitar atrasos ou minimizá-los.|situações atípicas que acontecem com o veículo impactam diretamente na qualidade do atendimento aos clientes.|
+ Renato Silva|conseguir direcionamento fácil de como chegar em postos de gasolina, borracheiro ou serviços mecânicos|
+
+
+
+
+
+
+
+
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
