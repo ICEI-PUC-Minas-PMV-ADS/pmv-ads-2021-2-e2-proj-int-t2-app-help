@@ -49,8 +49,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O sistema permitirá aos usuários qse registrarem | ALTA | 
+|RF-002| O sistema irá calcular o valor a ser cobrado do deslocamento realizado pelo prestador de serviço  | ALTA |
+|RF-003| O sistema terá um chat de comunicação direta com o prestador de serviço| ALTA|
+|RF-004| Serviço de solicitação para reabastecimento| MÉDIA|
+|RF-005| O sistema permitirá ao usuário avaliar com estrelas e fazer comentários ao prestador de serviço| MÉDIA|
+|RF-006| O sistema permitirá o gerenciamento das contas de usuários | ALTA|
+|RF-007| O sistema irá possuir filtros para seleção de Comércios |ALTA|
 
 ### Requisitos não Funcionais
 
