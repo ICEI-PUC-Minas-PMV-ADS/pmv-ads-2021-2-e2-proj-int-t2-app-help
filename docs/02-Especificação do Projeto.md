@@ -128,4 +128,5 @@ Tabela de atores e suas definições
 
 
 Diagrama
+
 ![Diagrama de casos de uso](https://user-images.githubusercontent.com/84281638/135941634-b971569a-b830-4230-9fc1-f40012a47210.png)
