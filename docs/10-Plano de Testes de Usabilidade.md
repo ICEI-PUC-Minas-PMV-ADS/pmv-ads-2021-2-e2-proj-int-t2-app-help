@@ -2,6 +2,17 @@
 
 O teste de usabilidade permite avaliar a qualidade da interface com o usuário da aplicação interativa. O Plano de Testes de Software é gerado a partir da especificação do sistema e consiste em casos de testes que deverão ser executados quando a implementação estiver parcial ou totalmente pronta.
 
+|Objetivo|Pessoas|Tarefa|
+|--------|--------------|-------------|
+|Verificar se o usuário consegue se cadastrar  no sistema|Usuário|Acessar a página inicial
+Clicar no botão “cadastre-se”
+Escolher a opção “Usuário”
+Preencher as informações necessárias
+Enviar o formulário
+
+
+
+
 As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
 
 > **Links Úteis**:
@@ -10,4 +21,4 @@ As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Test
 > - [Planejando testes de usabilidade: o que (e o que não) fazer | iMasters](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
 > - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
 
-[Plano de teste de usabilidade.pdf](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e2-proj-int-t2-app-help/files/7237451/Plano.de.teste.de.usabilidade.pdf)
+
