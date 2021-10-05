@@ -79,13 +79,4 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 ![Backlog](img/BackLog.jpeg)
 
 
-⦁	Documentação
-
-⦁	Desenvolvimento 
-
-⦁	Infraestrutura
-
-⦁	Testes
-
-⦁	Gerência de Projetos.
 
