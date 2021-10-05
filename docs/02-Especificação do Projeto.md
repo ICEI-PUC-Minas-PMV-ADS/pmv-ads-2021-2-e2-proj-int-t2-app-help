@@ -109,7 +109,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 > - [Diagrams](https://app.diagrams.net/)
 
 Tabela do diagrama de casos de uso
-
+|  |                                                       |
 |--|-------------------------------------------------------|
 |Registrar-se | Cadastro de usuários e prestadores de serviços que terão acesso ao sistema |
 |Efetuar login| Autenticação de usuários e prestadores que terão acesso ao sistema  |
