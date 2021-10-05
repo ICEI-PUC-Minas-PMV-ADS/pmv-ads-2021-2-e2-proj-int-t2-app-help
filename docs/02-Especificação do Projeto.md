@@ -115,4 +115,12 @@ Tabela do diagrama de casos de uso
 |Efetuar login| Autenticação de usuários e prestadores que terão acesso ao sistema  |
 |Pesquisar locais específicos| Ferramenta de filtro de buscas que os usuários poderão utilizar para pesquisar locais em específicos|
 |Gerenciar usuários| Controle do comportamento dos usuários no sistema|
-|Gerenciar Prestadores| Controle do comportamento dos  prestadores de serviços no sistema 
+|Gerenciar Prestadores| Controle do comportamento dos  prestadores de serviços no sistema |
+
+Tabela de atores e suas definições
+|  |                                                       |
+|--|-------------------------------------------------------|
+|Usuário | Motorista que necessita de prestação de serviços automotivos   |
+|Prestador de serviço| Profissional da área automotiva  |
+|Administrador| Pessoa responsável por gerenciar o sistema, usuários e prestadores de serviço |
+
