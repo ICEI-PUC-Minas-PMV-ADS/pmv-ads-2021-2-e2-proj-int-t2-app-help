@@ -4,11 +4,7 @@ O teste de usabilidade permite avaliar a qualidade da interface com o usuário d
 
 |Objetivo|Pessoas|Tarefa|
 |--------|--------------|-------------|
-|Verificar se o usuário consegue se cadastrar  no sistema|Usuário|Acessar a página inicial
-                                                                  Clicar no botão “cadastre-se”
-Escolher a opção “Usuário”
-Preencher as informações necessárias
-Enviar o formulário
+|Verificar se o usuário consegue se cadastrar  no sistema|Usuário|Acessar a página inicial; Clicar no botão “cadastre-se”; Escolher a opção “Usuário; Preencher as informações necessárias; Enviar o formulário|
 
 
 
