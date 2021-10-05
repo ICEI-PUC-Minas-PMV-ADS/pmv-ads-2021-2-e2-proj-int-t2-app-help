@@ -117,6 +117,7 @@ Tabela do diagrama de casos de uso
 |Gerenciar usuários| Controle do comportamento dos usuários no sistema|
 |Gerenciar Prestadores| Controle do comportamento dos  prestadores de serviços no sistema |
 
+
 Tabela de atores e suas definições
 |  |                                                       |
 |--|-------------------------------------------------------|
@@ -124,3 +125,5 @@ Tabela de atores e suas definições
 |Prestador de serviço| Profissional da área automotiva  |
 |Administrador| Pessoa responsável por gerenciar o sistema, usuários e prestadores de serviço |
 
+
+Diagrama
