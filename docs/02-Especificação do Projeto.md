@@ -21,16 +21,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                 |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|----------------------------------------------------|----------------------------------------|
 |Fernanda Lopes      | visitar vários clientes de forma efetiva e segura. | conseguir atender aos clientes sem atrasos ou com imprevistos minimizados.|
-|Fernanda Lopes |conseguir resolver os imprevistos na estrada de forma rápida, prática e segura  |evitar impactos significativos no dia a dia que atrapalham sua jornada de trabalho |
- Renato Silva | apresentar vários imóveis para clientes, normalmente entre cidades pequenas | evitar atrasos ou minimizá-los.|situações atípicas que acontecem com o veículo impactam diretamente na qualidade do atendimento aos clientes.|
- Renato Silva|conseguir direcionamento fácil de como chegar em postos de gasolina, borracheiro ou serviços mecânicos|
-
-
-
-
-
-
-
+|Fernanda Lopes |conseguir resolver os imprevistos na estrada de forma rápida, prática e segura  |evitar impactos significativos no dia a dia que atrapalham sua jornada de trabalho. |
+ Renato Silva | apresentar vários imóveis para clientes, normalmente entre cidades pequenas | evitar atrasos ou minimizá-los.|
+ Renato Silva|conseguir direcionamento fácil de como chegar em postos de gasolina, borracheiro ou serviços mecânicos|situações atípicas que acontecem com o veículo impactam diretamente na qualidade do atendimento aos clientes.|
+ |Carlos Nascimento| entregar as encomendas conforme cronograma|evitar impactos negativos como atrasos na entrega.|
+ |Carlos Nascimento| ter uma retaguarda de apoio durante o trajeto estipulado| conseguir resolver questões relacionadas ao veículo de forma rápida e confiável.|
+ |Roberto Ferreira| poder trabalhar independente do lugar onde irei com passageiro| caso aconteça algum problema com o carro, eu tenho soluções próximas a mim.|
+ |Lisa Nakamoto| viajo/saio muito com minhas amigas e é normal não conhecermos totalmente o lugar onde vamos|quero ter a segurança de poder sair sem preocupações com minhas amigas, sabendo que se o carro apresentar algum problema terei uma solução rápida e confiável.|
 
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
