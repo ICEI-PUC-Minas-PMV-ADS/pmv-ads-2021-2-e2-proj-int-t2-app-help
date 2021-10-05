@@ -107,3 +107,13 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 > - [Lucidchart](https://www.lucidchart.com/)
 > - [Astah](https://astah.net/)
 > - [Diagrams](https://app.diagrams.net/)
+
+Tabela do diagrama de casos de uso
+
+|                                               |
+|--|-------------------------------------------------------|
+|Registrar-se | Cadastro de usuários e prestadores de serviços que terão acesso ao sistema |
+|Efetuar login| Autenticação de usuários e prestadores que terão acesso ao sistema  |
+|Pesquisar locais específicos| Ferramenta de filtro de buscas que os usuários poderão utilizar para pesquisar locais em específicos|
+|Gerenciar usuários| Controle do comportamento dos usuários no sistema|
+|Gerenciar Prestadores| Controle do comportamento dos  prestadores de serviços no sistema 
