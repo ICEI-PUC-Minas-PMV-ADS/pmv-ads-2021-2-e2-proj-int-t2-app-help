@@ -34,7 +34,7 @@ RF-02 - O site deve apresentar, para cada comercio seus serviços, imagens, aval
 ## Critérios de Êxito
 -Deve haver uma requisição AJAX no painel de cardápio aos serviços (recurso do Navegador).
 
--Os dados do usuário deveme prestados  ser exibidas corretamente no site, sendo .
+-Os dados do usuário e prestador deve  ser exibidas corretamente na pagina da aplicaçao, sendo .
 
 -As informações no cadastro devem ser mantidas no bacndo de dados, dando confidencialidade ao prestador e usuário.
 
