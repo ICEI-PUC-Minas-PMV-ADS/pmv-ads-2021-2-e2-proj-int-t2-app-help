@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap%27');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(/img/Fundo.jpeg) no-repeat center fixed;
+    background-size: cover;
+    background-position:  center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.menu{
+    margin: 4% 28%;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    width: 600px;
+}
+.row h1{
+    margin: 50% 42%;
+}
+.texto h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+    margin: 3% 45%;
+}
+.btn{
+    width: 40%;
+    margin-left: 28%;
+    margin-top: 15%;
+    background: #064B00;
+    color: #fff;
+    font-size: 20px;
+}
+
+.form-control {
+    background-color: #C4C4C4;
+    
+}
+
+
+@media screen and (max-width: 760px) {
+    body {
+    background-image: url(/img/Fundo.jpeg);
+    background-repeat: no-repeat;
+    background-size: 180vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+    }
+    .texto h1 {
+       margin-left: 20%;
+       
+    }
+    .menu {
+        margin-left: 10%;
+        width: 200px;
+        font-size: 100px;
+    }
+}
+
