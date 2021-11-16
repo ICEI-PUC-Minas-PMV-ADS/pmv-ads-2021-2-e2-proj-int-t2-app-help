@@ -32,13 +32,13 @@ RF-02 - O site deve apresentar, para cada comercio seus serviços, imagens, aval
 6 Filtro de seleção por serviços 
 
 ## Critérios de Êxito
--Deve haver uma requisição AJAX no painel de cardápio aos serviços (recurso do Navegador).
+-Bucar serviços oferecidos pela planta forma (recurso do Navegador).
 
--Os dados do usuário e prestador deve  ser exibidas corretamente na pagina da aplicaçao, sendo .
+-Os dados do usuário e prestador deve  ser exibidas corretamente na pagina da aplicaçao.
 
 -As informações no cadastro devem ser mantidas no bacndo de dados, dando confidencialidade ao prestador e usuário.
 
--Funcionamento de buscas do usuário  por requisição AJAX .
+-Funcionamento de buscas do usuário  por serviços filtrados .
 
 -Interatividade com API como busca de seleção a localidade de mapa.
 
