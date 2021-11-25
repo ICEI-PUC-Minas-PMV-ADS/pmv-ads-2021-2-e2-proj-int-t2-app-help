@@ -21,9 +21,14 @@
 ![Prestador](img/TelaCadastroP.jpeg)
 
 
-## Resgistro de Tela Pós Cadastro Prestador
+## Resgistro Tela Pós Cadastro Prestador
 
 ![Prestador](img/TesteAcesso.jpeg)
+
+
+## Registro Pesquisar Serviços
+
+![Prestador](img/BuscarServiços.jpeg)
 
 
 ## Registro de Responsividade Mobile
