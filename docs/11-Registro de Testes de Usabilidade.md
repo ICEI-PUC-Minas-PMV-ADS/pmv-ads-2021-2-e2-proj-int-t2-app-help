@@ -6,25 +6,26 @@
 ![Prestador](img/TeladeEntrada.jpeg)
 
 
-## Registro Tela de Cadastro
+## Registro Tela de Cadastro Usuário
 
 ![Prestador](img/TelaCadastro.jpeg)
+
+
+## Resgistro de Tela Pós Cadastro Usuário
+
+![Prestador](img/TesteAcesso.jpeg)
+
+
+## Resgistro Tela Cadastro Prestador
+
+![Prestador](img/TelaCadastroP.jpeg)
+
+
+## Resgistro de Tela Pós Cadastro Prestador
+
+![Prestador](img/TesteAcesso.jpeg)
 
 
 ## Registro de Responsividade Mobile
 
 ![Prestador](img/TelaMobile.jpeg)
-
-
-## Resgistro de Tela Pós cadastro
-
-
-![Prestador](img/TesteAcesso.jpeg)
-
-
-## Resgistro de Tela Pós cadastro
-
-![Prestador](img/TelaInicial.jpeg)
-
-
-## 
