@@ -1,8 +1,14 @@
 # Registro de Testes de Usabilidade
 
-## Registro de Teste Cadastro do Prestador
+## Registro Tela de Entrada
 
-![Prestador](img/Prestador1.jpeg)
+
+![Prestador](img/TeladeEntrada.jpeg)
+
+
+## Registro Tela de Cadastro 
+
+![Prestador](img/TelaCadastro.jpeg)
 
 
 ## Registro de Responsividade Mobile
