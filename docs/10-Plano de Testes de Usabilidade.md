@@ -5,7 +5,7 @@ O teste de usabilidade permite avaliar a qualidade da interface com o usuário d
 |Objetivo|Pessoas|Tarefa|
 |--------|--------------|-------------|
 |Verificar se o usuário consegue se cadastrar  no sistema|Usuário|Acessar a página incial e clicar no botão entrar, em seguida cadastre-se. Preender as informações como Nome, CPF, Data de Nascimento, E-mail, Senha e selecionar a opção usuário (informações que são obrigatórias para o cadastro) e clicar em continuar.|
-|Verificar se o usuário consegue acessar o sistema após ter feito o cadastro com sucesso|Usuário|Acessar a página inicial; Preencher as informações de login e senha; Clicar no botão “entrar”|
+|Verificar se o usuário consegue acessar o sistema após ter feito o cadastro com sucesso|Usuário|Acessar a página de entrada; Preencher as informações de login e senha, logo após, clicar no botão “entrar”|
 |Verificar se o usuário consegue redefinir a senha|Usuário|Acessar a página inicial; Preencher as informações de login e senha; Clicar no botão “entrar”; Acessar a página de perfil do usuário; Navegar até a opção de redefinir senha; Preencher campo com “senha atual”; Preencher campo com nova senha; Apertar botão “Confirmar alterações”|
 |Verificar se o usuário consegue pesquisar um prestador/serviço|Usuário|Acessar a página inicial; Preencher as informações de login e senha; Clicar no botão “entrar”; Escolher serviço na página principal; Verificar informações do serviço; Solicitar serviço|
 |Verificar se o sistema é responsivo em smartphones|Usuário|Acessar a página inicial pelo smartphone; Preencher as informações de login e senha; Clicar no botão “entrar”; Verificar página principal; Verificar se as informações estão ordenadas de uma forma clara na tela do smartphone|
