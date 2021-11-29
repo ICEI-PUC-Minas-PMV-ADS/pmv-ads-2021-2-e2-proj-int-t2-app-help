@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+html,body{
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden; 
+}
+main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+#background {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 50%;
+    height: 100%;
+    background-color: #fab940bb;
+    z-index: -1;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: space-around;  
+    align-items: center; 
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+#parte-img{
+    position:relative;
+    text-align: center;
+    flex:  -2 0;
+   
+}
+#parte-text{
+    
+}
+.text h1{
+    font-size:30px;  
+}
+.form{
+    margin-top: 30px;
+    width: 25rem;
+}
+.form p{
+    margin-top: 20px;
+}
+.form input{
+    border: 1px solid #fab940bb;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 15px;
+    height: 50px;
+}
+#relembre{
+        margin-top: 30px;
+        font-size: 13px;
+}
+#relembre a{
+    text-decoration: none;
+    color: #2B6CB0;
+    margin-left: 8.50rem;
+}
+
+.btn-1{
+    display: block;
+    height: 40px;
+    width: 25rem;
+    background: #eb9413;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 25px;
+}
+.btn-2{
+    display: block;
+    height: 40px;
+    width: 25rem;
+    background: #000;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+.btn-2 img{
+    margin-right: 15px;
+}
+#lembrar{
+    border-radius: 60px;   
+}
+.cadastro{
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 50px;
+}
+.cadastro a{
+    text-decoration: none;
+    color: #2B6CB0;
+}
+
+
+@media screen and (max-width: 480px) {
+    #parte-img{  
+    display: none;
+    }
+    #background{
+        display: none;
+    }
+    .container{
+       margin: -20%;
+       padding: 2%;
+    }
+}
