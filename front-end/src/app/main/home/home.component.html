@@ -1,0 +1,133 @@
+<body style="background-color: #F1F1F1;  overflow-x: hidden;">
+<nav class="navbar navbar-expand-lg ">
+  <img src="assets/img/Component 1 (1).png" width="40" height="40" alt="" >
+  <div class="menu collapse navbar-collapse" id="navbarNav" style="margin-right: 346px;">
+    <ul class="navbar-nav">
+      <li class="nav-item ">
+        <a class="nav-link" routerLink="/">TODOS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/servicos">SERVIÇOS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/contatos">CONTATOS</a>
+      </li>
+
+    </ul>
+  </div>
+
+  <ul class="navbar-nav mr-auto" *ngIf="logado; else deslogado">
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        {{nome}}
+      </a>
+      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" tabindex="-1" (click)="perfil()">Perfil</a>
+        <a class="dropdown-item" tabindex="-1" routerLink="/meus-servicos">Meus Serviços</a>
+        <a class="dropdown-item" tabindex="-1" (click)="excluirUsuario()">Excluir</a>
+        <a class="dropdown-item" tabindex="-1"  (click)="logout()">Sair</a>
+
+      </div>
+    </li>
+  </ul>
+
+
+  <ng-template #deslogado>
+    <a routerLink="/login" class="btn  btn-dark btn-lg active" role="button" style="border-radius: 10px; width: 120px; height: 50px; font-size:16px;">Entrar
+      <lord-icon
+        src="https://cdn.lordicon.com/zzcjjxew.json"
+        trigger="loop"
+        colors="primary:#000000,secondary:#eeca66"
+        style="width:40px;height:40px">
+      </lord-icon>
+    </a>
+  </ng-template>
+
+</nav>
+
+
+
+<div class="container">
+  <div class="img-menu">
+    <img src="assets/img/Rectangle 23 (1).png" alt="" width="900px">
+  </div>
+  <div class="texto-menu" style="margin-top: 17%;">
+    <h1>Bem vindo  </h1>
+    <p class="card-text" > Freedom does not mean we have to change all our situations. We do not have to turn our
+      <br>life or situations upside down to become free because one situation is not better than some other situation;
+      <br>don’t ever believe that. It is just a choice.</p>
+  </div>
+</div>
+<div class="servicos" style="margin: 15% 27%;">
+  <h1>Serviços na palma da mão</h1>
+</div>
+<!-- Cards dos Servicos  -->
+<div class="row row-cols-1 row-cols-md-3 g-4" style="margin: 5% 0%;">
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <lord-icon
+          src="https://cdn.lordicon.com/ckuogwdx.json"
+          trigger="loop"
+          colors="primary:#121331,secondary:#08a88a"
+          stroke="45"
+          style="width:250px;height:150px">
+        </lord-icon>
+        <h5 class="card-title">Combustivel</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <lord-icon
+        src="https://cdn.lordicon.com/sbiheqdr.json"
+        trigger="loop"
+        colors="primary:#121331,secondary:#08a88a"
+        style="width:250px;height:150px">
+      </lord-icon>
+      <div class="card-body">
+        <h5 class="card-title">Falhas Mecânicas</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <lord-icon
+        src="https://cdn.lordicon.com/bkzzedxx.json"
+        trigger="loop"
+        colors="primary:#121331,secondary:#08a88a"
+        style="width:250px;height:150px">
+      </lord-icon>
+      <div class="card-body">
+        <h5 class="card-title">Reboques</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/img/Frame 12.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/Frame 14.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/Frame 13.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</body>

@@ -1,0 +1,162 @@
+
+<body class="login-page " style="min-height: 466px;">
+<div class="login-box">
+  <!-- /.login-logo -->
+  <div class="card card-outline card-orange">
+    <div class="card-header text-center">
+      <a class="h1"><b>Bem Vindo</b></a>
+    </div>
+    <div class="card-body">
+      <p class="login-box-msg">Faça o login para iniciar sua sessão</p>
+
+      <form  [formGroup]="formulario" (ngSubmit)="submit()"  >
+        <div class="input-group mb-3">
+          <input type="email" name="email" name="email" class="form-control"  formControlName="email"
+                             [ngClass]="aplicaCssErroCampo('email')">
+
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-envelope"></span>
+            </div>
+          </div>
+        </div>
+        <app-error-msg [control]="formulario.get('email')" label="Email"></app-error-msg>
+        <div class="input-group mb-3">
+          <input type="password" name="senha" name="senha" class="form-control"  formControlName="senha"
+                 [ngClass]="aplicaCssErroCampo('senha')">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-lock"></span>
+            </div>
+          </div>
+        </div>
+        <app-error-msg [control]="formulario.get('email')" label="Email"></app-error-msg>
+        <div class="input-group mb-3">
+          <select class="custom-select" id="inputGroupSelect03" name="tipo" formControlName="tipo"
+                  [ngClass]="aplicaCssErroCampo('tipo')">
+            require style="background-color: #C4C4C4;">
+            <option value="PRESTADOR">Prestador</option>
+            <option value="USUARIO">Usuario</option>
+          </select>
+
+        </div>
+
+        <div class="row">
+
+          <!-- /.col -->
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary btn-block">Login</button>
+
+          </div>
+
+        </div>
+        <div class="row">
+
+          <!-- /.col -->
+          <div class="col-12">
+            <ul class="navbar-nav mr-auto" >
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Cadastre-se
+              </a>
+              <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
+
+                <a class="dropdown-item" tabindex="-1" routerLink="/prestador/novo">Prestador</a>
+                <a class="dropdown-item" tabindex="-1" routerLink="/usuario/novo">Usuario</a>
+
+
+              </div>
+            </li>
+            </ul>
+          </div>
+          <!-- /.col -->
+        </div>
+
+      </form>
+
+
+      <!-- /.social-auth-links -->
+
+      <p class="mb-1">
+        <a href="#">Esqueceu a senha?</a>
+      </p>
+
+
+    </div>
+    <!-- /.card-body -->
+  </div>
+  <!-- /.card -->
+</div>
+<!-- /.login-box -->
+
+
+
+</body>
+
+
+
+<!--<main>-->
+<!--  <div class="container">-->
+<!--    <main id="parte-img">-->
+<!--      <div class="img">-->
+<!--        <img src="assets/img/logar.svg" alt="" width="400">-->
+<!--      </div>-->
+<!--    </main>-->
+<!--    <main id="parte-texto" >-->
+<!--      <div class="text float-left">-->
+<!--        <p>Bem vindo</p>-->
+<!--        <H1>Faça login na sua conta</H1>-->
+<!--        <form [formGroup]="formulario" (ngSubmit)="onSubmit()">-->
+<!--          <div class="row">-->
+<!--            <div class="form-group col-sm-8">-->
+
+<!--            <label>E-mail</label>-->
+<!--            <input type="email" name="email" name="email" formControlName="email"-->
+<!--                   [ngClass]="aplicaCssErroCampo('email')">-->
+<!--            <app-error-msg [control]="formulario.get('email')" label="Email"></app-error-msg>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <div class="row">-->
+<!--            <div class="form-group col-sm-12">-->
+<!--          <label>Senha</label>-->
+<!--          <input type="password" name="senha" name="senha" formControlName="senha"-->
+<!--                 [ngClass]="aplicaCssErroCampo('senha')">-->
+<!--            </div>-->
+<!--            <app-error-msg [control]="formulario.get('senha')" label="Senha"></app-error-msg>-->
+<!--          </div>-->
+<!--          <div class="row">-->
+<!--            <div class="form-group col-sm-12">-->
+<!--              <label>Tipo de usuario</label>-->
+<!--          <select class="custom-select" id="inputGroupSelect03" name="tipo" formControlName="tipo"-->
+<!--                  [ngClass]="aplicaCssErroCampo('tipo')">-->
+<!--            require style="background-color: #C4C4C4;">-->
+<!--            <option value="PRESTADOR">Prestador</option>-->
+<!--            <option value="USUARIO">Usuario</option>-->
+<!--          </select>-->
+<!--          <app-error-msg [control]="formulario.get('email')" label="Email"></app-error-msg>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <button type="submit" class="btn-1">Entrar</button>-->
+
+
+<!--        </form>-->
+<!--        <div id="relembre">-->
+<!--          <input class="radio" type="radio" name="theradio" id="radio1">-->
+<!--          <label for="radio1">Lembrar de mim</label>-->
+<!--          <a href="#">Esqueceu sua senha?</a>-->
+<!--        </div>-->
+
+
+<!--      </div>-->
+<!--      <div class="cadastro">-->
+<!--        <p>Não tem uma conta ? </p>-->
+<!--        <a href="../php/formulario_T.php"> Cadastre-se </a>-->
+<!--      </div>-->
+<!--    </main>-->
+<!--    <div id="background"></div>-->
+<!--  </div>-->
+<!--</main>-->
+
+
+

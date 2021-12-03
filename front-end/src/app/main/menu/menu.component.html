@@ -1,0 +1,50 @@
+<div style="background-color: #F1F1F1;  overflow-x: hidden;">
+  <nav class="navbar navbar-expand-lg ">
+    <img src="assets/img/Component 1 (1).png" width="40" height="40" alt="" >
+    <div class="menu collapse navbar-collapse" id="navbarNav" style="margin-right: 346px;">
+      <ul class="navbar-nav">
+        <li class="nav-item ">
+          <a class="nav-link" routerLink="/">TODOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="servicos">SERVIÇOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" >CONTATOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../php/dados_Prestador.php">INFORMAÇÕES</a>
+        </li>
+      </ul>
+    </div>
+    <form  class="form-inline">
+      <div class="input-group ">
+        <input type="search" name="busca" placeholder="Buscar Serviços"  style="margin: 0px -70px; border-radius: 10px; border: none; width: 300px;" [(ngModel)]="busca" >
+        <button classe="btn  btn-dark btn-lg active" style="border-radius: 10px; width: 120px; height: 50px; font-size:16px;" type="button"  (click)="buscar()">Buscar</button>
+      </div>
+    </form>
+    <ul class="nav nav-pills ml-auto p-2" *ngIf="logado; else deslogado">
+      <li class="nav-item dropdown show" >
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+          {{nome}} <span class="caret"></span>
+        </a>
+        <div class="dropdown-menu " x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-5px, 40px, 0px);">
+          <a class="dropdown-item" tabindex="-1" (click)="perfil()">Perfil</a>
+          <a class="dropdown-item" tabindex="-1" (click)="excluirUsuario()">Excluir</a>
+          <a class="dropdown-item" tabindex="-1"  (click)="logout()">Sair</a>
+
+        </div>
+      </li>
+    </ul>
+    <ng-template #deslogado>
+      <a routerLink="/login" class="btn  btn-dark btn-lg active" role="button" style="border-radius: 10px; width: 120px; height: 50px; font-size:16px;">Entrar
+        <lord-icon
+          src="https://cdn.lordicon.com/zzcjjxew.json"
+          trigger="loop"
+          colors="primary:#000000,secondary:#eeca66"
+          style="width:40px;height:40px">
+        </lord-icon>
+      </a>
+    </ng-template>
+
+  </nav>

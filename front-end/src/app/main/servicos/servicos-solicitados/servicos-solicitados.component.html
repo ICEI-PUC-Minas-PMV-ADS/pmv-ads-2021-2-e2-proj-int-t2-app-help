@@ -1,0 +1,90 @@
+<div style="background-color: #F1F1F1; height: 900px; ">
+  <nav class="navbar navbar-expand-lg ">
+    <img src="assets/img/Component 1 (1).png" width="40" height="40" alt="" >
+    <div class="menu collapse navbar-collapse" id="navbarNav" style="margin-right: 346px;">
+      <ul class="navbar-nav">
+        <li class="nav-item ">
+          <a class="nav-link" routerLink="/">TODOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/servicos">SERVIÇOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/contatos">CONTATOS</a>
+        </li>
+
+      </ul>
+    </div>
+    <ul class="navbar-nav mr-auto" *ngIf="logado; else deslogado">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          {{nome}}
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" tabindex="-1" (click)="perfil()">Perfil</a>
+          <a class="dropdown-item" tabindex="-1" routerLink="/meus-servicos">Meus Serviços</a>
+          <a class="dropdown-item" tabindex="-1" (click)="excluirUsuario()">Excluir</a>
+          <a class="dropdown-item" tabindex="-1"  (click)="logout()">Sair</a>
+
+        </div>
+      </li>
+    </ul>
+
+
+
+    <ng-template #deslogado>
+      <a routerLink="/login" class="btn  btn-dark btn-lg active" role="button" style="border-radius: 10px; width: 120px; height: 50px; font-size:16px;">Entrar
+        <lord-icon
+          src="https://cdn.lordicon.com/zzcjjxew.json"
+          trigger="loop"
+          colors="primary:#000000,secondary:#eeca66"
+          style="width:40px;height:40px">
+        </lord-icon>
+      </a>
+    </ng-template>
+
+  </nav>
+
+  <div class="content">
+    <h5 class="m-5">Serviços Solicitados</h5>
+    <div class="row m-5 justify-content-center h-100">
+      <table
+        class="table table-sm table-hover dataTable dtr-inline  " role="grid">
+        <thead>
+        <tr>
+          <th >{{prestador ? "Usuario" : "Prestador"}}</th>
+          <th >Servico</th>
+          <th >Endereço</th>
+          <th >Valor</th>
+          <th >Status</th>
+
+          <th style="width:50px">Ações</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let solicitacao of solicitacoes">
+          <td>{{ prestador ? solicitacao.prestador.nome_do_comercio : solicitacao.usuario.nome }}</td>
+          <td>{{ solicitacao.prestador.servico_do_comercio }}</td>
+          <td>{{ solicitacao.usuario.endereco }}, {{ solicitacao.usuario.numero }} {{ solicitacao.usuario.bairro }} {{ solicitacao.usuario.cidade }} {{ solicitacao.usuario.estado }}</td>
+          <td>{{ solicitacao.prestador.valor_servico | currency: 'BRL' }}</td>
+          <td>{{ solicitacao.status }}</td>
+
+          <td >
+            <div class="text-center d-flex">
+
+              <button *ngIf="prestador" (click)="onRealizado(solicitacao)" class="btn btn-success btn-xs m-2 " data-original-title="Realizado" [disabled]="verificarDisabled(solicitacao)"
+                 data-toggle="tooltip" title="Realizado"><i class="fas fa-check"></i></button>
+              <button  (click)="onCancelado(solicitacao)" class="btn btn-danger btn-xs m-2 " data-original-title="Cancelar" [disabled]="verificarDisabled(solicitacao)"
+                  data-toggle="tooltip" title="Cancelar"><i class="fas fa-window-close"></i></button>
+
+            </div>
+          </td>
+        </tr>
+        </tbody>
+
+      </table>
+    </div>
+
+  </div>
+
+</div>

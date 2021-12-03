@@ -1,0 +1,17 @@
+<h2 mat-dialog-title>Você confirma essa solicitação {{usuario.nome}} ?</h2>
+<mat-dialog-content>
+
+<p>Prestador:{{prestador.nome_do_comercio}}</p>
+<p>Serviço:{{prestador.servico_do_comercio}}</p>
+<p>Valor:{{prestador.valor_servico}}</p>
+ <br/>
+<p>Seu endereço:{{usuario.endereco}} {{usuario.numero}}, {{usuario.bairro}} {{usuario.cidade}} {{usuario.estado}}</p>
+
+
+
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button class="btn btn-danger mr-2" mat-button mat-dialog-close>Cancelar</button>
+  <!-- The mat-dialog-close directive optionally accepts a value as a result for the dialog. -->
+  <button class="btn btn-success" (click)="solicitar()" mat-button cdkFocusInitial>Sim</button>
+</mat-dialog-actions>

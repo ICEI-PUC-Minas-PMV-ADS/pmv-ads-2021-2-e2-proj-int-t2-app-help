@@ -1,0 +1,126 @@
+<div class="background overflow-auto">
+
+  <div class="text">
+    <h1>{{cabecalho}}</h1>
+  </div>
+
+  <form [formGroup]="formulario" (ngSubmit)="onSubmit()" class="scroll">
+
+    <div class="row d-flex justify-content-center">
+      <div class="col-sm-8  form-group">
+        <input class="form-control form-control-lg" id="nome" name='nome' placeholder="NOME COMPLETO" formControlName="nome"
+               type="text"  [ngClass]="aplicaCssErroCampo('nome')">
+        <app-error-msg [control]="formulario.get('nome')" label="Nome"></app-error-msg>
+      </div>
+
+    </div>
+
+    <div class="row d-flex justify-content-center">
+      <div class="form-group col-lg-8 ">
+        <input class="form-control form-control-lg" id="cpf" name="cpf" placeholder="cpf" required type="text" formControlName="cpf"
+               [ngClass]="aplicaCssErroCampo('cpf')" mask="000.000.000-00">
+        <app-error-msg [control]="formulario.get('cpf')" label="cpf"></app-error-msg>
+      </div>
+
+    </div>
+
+    <div class="row d-flex justify-content-center">
+      <div class="form-group col-lg-8">
+        <div class="input-group">
+        <input class="form-control" [ngClass]="aplicaCssErroCampo('data_nascimento')"  matInput [matDatepicker]="data_nascimento" formControlName="data_nascimento">
+        <mat-datepicker-toggle matSuffix [for]="data_nascimento"></mat-datepicker-toggle>
+        <mat-datepicker #data_nascimento></mat-datepicker>
+        </div>
+
+        <app-error-msg [control]="formulario.get('data_nascimento')" label="data_nascimento"></app-error-msg>
+      </div>
+
+    </div>
+
+    <div class="row d-flex justify-content-center">
+      <div class="form-group col-lg-8">
+        <input class="form-control form-control-lg" id="email" name="email" placeholder="EMAIL"  type="email"    formControlName="email"
+               [ngClass]="aplicaCssErroCampo('email')">
+        <app-error-msg [control]="formulario.get('email')" label="email"></app-error-msg>
+      </div>
+
+    </div>
+    <div class="row d-flex justify-content-center">
+      <div class="form-group col-lg-8">
+        <input class="form-control form-control-lg" id="password" name=senha placeholder="SENHA"
+               type="password"  formControlName="senha"
+               [ngClass]="aplicaCssErroCampo('senha')">
+        <app-error-msg [control]="formulario.get('senha')" label="Senha"></app-error-msg>
+      </div>
+
+    </div>
+    <div class="row d-flex justify-content-center">
+      <div class="form-group col-lg-8">
+        <input class="form-control form-control-lg" id="password1" placeholder="CONFIRMAR SENHA"
+               type="password"  formControlName="senha1"
+               [ngClass]="aplicaCssErroCampo('senha1')">
+        <app-error-msg [control]="formulario.get('senha1')" label="Senha"></app-error-msg>
+      </div>
+
+    </div>
+
+    <div class="row d-flex justify-content-center">
+      <div class="col-sm-8  form-group">
+        <input type="text" class="form-control form-control-lg" id="chassi" name='chassi' placeholder="CHASSI"  formControlName="chassi"
+               [ngClass]="aplicaCssErroCampo('chassi')">
+        <app-error-msg [control]="formulario.get('chassi')" label="Chassi"></app-error-msg>
+
+      </div>
+
+    </div>
+    <div class="row d-flex justify-content-center">
+      <div class="col-sm-8  form-group">
+        <input type="text" class="form-control form-control-lg" id="endereco" name='endereco' placeholder="ENDEREÇO"  formControlName="endereco"
+               [ngClass]="aplicaCssErroCampo('endereco')">
+        <app-error-msg [control]="formulario.get('endereco')" label="Endereço"></app-error-msg>
+
+      </div>
+
+    </div>
+    <div class="row d-flex justify-content-center">
+      <div class="col-sm-8  form-group">
+        <input type="text" class="form-control form-control-lg" id="numero" name='numero' placeholder="NÚMERO"  formControlName="numero"
+               [ngClass]="aplicaCssErroCampo('numero')">
+        <app-error-msg [control]="formulario.get('numero')" label="NÚMERO"></app-error-msg>
+
+      </div>
+
+    </div>
+    <div class="row d-flex justify-content-center">
+      <div class="col-sm-8  form-group">
+        <input type="text" class="form-control form-control-lg" id="bairro" name='bairro' placeholder="BAIRRO"  formControlName="bairro"
+               [ngClass]="aplicaCssErroCampo('bairro')">
+        <app-error-msg [control]="formulario.get('bairro')" label="BAIRRO"></app-error-msg>
+
+      </div>
+
+    </div>
+    <div class="row d-flex justify-content-center">
+      <div class="col-sm-8  form-group">
+        <input type="text" class="form-control form-control-lg" id="cidade" name='cidade' placeholder="CIDADE"  formControlName="cidade"
+               [ngClass]="aplicaCssErroCampo('cidade')">
+        <app-error-msg [control]="formulario.get('cidade')" label="CIDADE"></app-error-msg>
+
+      </div>
+
+    </div>
+   <div class="row d-flex justify-content-center">
+      <div class="col-sm-8  form-group">
+        <input type="text" class="form-control form-control-lg" id="estado" name='estado' placeholder="ESTADO"  formControlName="estado"
+               [ngClass]="aplicaCssErroCampo('estado')">
+        <app-error-msg [control]="formulario.get('estado')" label="ESTADO"></app-error-msg>
+
+      </div>
+
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <button class="btn btn-success col-sm-6" type="submit" [disabled]="isLoading" ><i class="fa" [ngClass]="{'fa-spin  fa-spinner': isLoading, 'fa-check': !isLoading}"></i> {{button}}</button>
+    </div>
+  </form>
+</div>
