@@ -3,32 +3,32 @@
 ## Registro Tela de Entrada
 
 
-![Prestador](img/TeladeEntrada.jpeg)
+![Prestador](img/TelaEntrada.PNG)
 
 
 ## Registro Tela de Cadastro Usuário
 
-![Prestador](img/TelaCadastro.jpeg)
+![Prestador](img/TelaCadastroUsuario.PNG)
 
 
 ## Resgistro de Tela Pós Cadastro Usuário
 
-![Prestador](img/TesteAcesso.jpeg)
+![Prestador](img/TelaCadastroOKU.PNG)
 
 
 ## Resgistro Tela Cadastro Prestador
 
-![Prestador](img/TelaCadastroP.jpeg)
+![Prestador](img/TelaCadastroPrestador.PNG)
 
 
 ## Resgistro Tela Pós Cadastro Prestador
 
-![Prestador](img/TesteAcesso.jpeg)
+![Prestador](img/TelaCadastroOKP.PNG)
 
 
 ## Registro Pesquisar Serviços
 
-![Prestador](img/BuscarServiços.jpeg)
+![Prestador](img/TelaBuscarServiços.PNG)
 
 
 ## Registro de Responsividade Mobile
