@@ -33,4 +33,4 @@
 
 ## Registro de Responsividade Mobile
 
-![Prestador](img/TelaMobile.jpeg)
+![Prestador](img/ResponsividadeMobile.PNG)
