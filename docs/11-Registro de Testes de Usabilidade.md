@@ -33,4 +33,4 @@
 
 ## Registro de Responsividade Mobile
 
-![Prestador](img/ResponsividadeMobile.PNG)
+![Prestador](img/ResponsividadeMobile1.PNG)
