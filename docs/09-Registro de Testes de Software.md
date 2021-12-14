@@ -44,7 +44,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |---|----|
 |Requisitos Associados | RF-14 O site deverá permitir gerencias os acessos dos usuários.|
 |Objetivo do Teste |Verificar a possibilidade do usuário gerenciar todos os perfis que acessam seus dados|
-|Passos |1) Acessar o navegador <br/> 2) Acessar o site <br/> 3) Na tela inicial clicar em "Acessar"<br/> 4) Realizar Login <br/> 5) Clicar em "Gerenciamento de acessos" <br/> 6) Clicar em "Editar" e "Excluir" <br/> 7) Modificar dados cadastrados 8) Clicar em "Salvar" |
+|Passos |1) Acessar o navegador <br/> 2) Acessar o site <br/> 3) Na tela inicial clicar em "Acessar"<br/> 4) Realizar Login <br/> 5) Clicar em "Gerenciamento de acessos" <br/> 6) Clicar em "Editar" e "Excluir" <br/> 7) Modificar dados cadastrados <br/> 8) Clicar em "Salvar" |
 |Critérios de Êxito |Após a edição ou exclusão uma mensagem de sucesso deve ser exibida <br/> O perfil selecionado deve ser editado ou excluído do banco de dados <br/> As novas informações atualizadas do perfil editado deve aparecer na página de gerenciamento de acessos |
 |Resultados obtidos | Requisito atendido - É possivel acessar os usuários cadastrados, verificar o perfil de acesso definido, alterar e salvar |
 
