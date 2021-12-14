@@ -16,9 +16,9 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
 | **Caso de Teste** |**CT-01 - Cadastrar Usuário**| 
 |---|----|
-|Requisitos Associados |RF-01 O site deve permitir o usuário cadastrar-se com um login e senha. O login deverá ser seu endereço de e-mail ou número do telefone celular. A senha é opcional.<br/> RF-02 O site deixa a senha a escolha do cliente.<br/> RF-05 O site deve possuir uma tela de cadastro de dados pessoais do paciente.|
+|Requisitos Associados |RF-01 O site deve permitir o usuário cadastrar-se com um login e senha. O login deverá ser seu endereço de e-mail. A senha é OBRIGRATORIA.<br/> RF-02 O site deixa a senha a escolha do cliente.<br/> RF-05 O site deve possuir uma tela de cadastro de dados pessoais do cliente e do Prestador.|
 |Objetivo do Teste | Verificar a possibilidade de cadastro de novos usuários|
-|Passos |1) Acessar o navegador <br/> 2) Acessar o site <br/> 3) Na tela inicial clicar em "Cadastre-se"<br/> 4) Informar os campos solicitados: Nome Completo, email e senha <br/> 5) Clicar em"Cadastre-se"|
+
 |Critérios de Êxito |Uma mensagem de sucesso deve ser exibida <br/> Os dados devem ser salvos no banco de dados e serem possíveis de acessar posteriormente|
 |Resultados obtidos | Requisito atendido - Ao acessar o site foi possivel fazer cadastro por meio de email e senha |
 
