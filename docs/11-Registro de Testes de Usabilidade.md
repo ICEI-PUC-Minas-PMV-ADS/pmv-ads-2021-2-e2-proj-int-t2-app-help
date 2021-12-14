@@ -96,5 +96,5 @@ Tarefa: Acessar a página inicial pelo smartphone; Preencher as informações de
 Observações: algumas páginas como “Novo Usuário” e “Serviços Solicitados” não foram apresentadas corretamente na tela do smartphone.
 
 ## Considerações finais
-Com base nas observações dos testes, será necessário fazer algumas alterações, para melhorar a usabilidade do usuário. A responsividade precisa de atenção, pois a aplicação foi projetada para ser utlizada em qualquer plataforma. Além disso, algumas ações são necessárias que o usário consiga tulizar a plataforma com mais facilidade.
+Com base nas observações dos testes, será necessário fazer algumas alterações, para melhorar a usabilidade do usuário. A responsividade precisa de atenção, pois a aplicação foi projetada para ser utlizada em qualquer plataforma. Além disso, algumas ações são necessárias que o usário consiga utilizar a plataforma com mais facilidade. Nos testes 1 e 3 foi observado a necessidade de implementar uma ação para que o usuário ao terminar de fazer o cadastro, retornar para a página inicial ou de autenticação. Em relação ao teste 6, recomenda-se a adequação das telas em que a responsividade não está adequada, caso contrário não será possível a utilização da plataforma em smarthphones. Por hora, a aplicação é viável apenas para utlização em desktops. 
 
