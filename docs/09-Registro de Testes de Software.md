@@ -24,19 +24,19 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
 |**Caso de Teste** |**CT-02 - Realizar Login**| 
 |---|----|
-|Requisitos Associados | RF-03 O site deverá permitir validar o e-mail ou telefone do usuário <br/> RF-04	O site deve permitir o acesso do paciente cadastrado, seu cuidador e seu familiar.<br/>|
+|Requisitos Associados | RF-03 O site deverá permitir validar o e-mail do usuário <br/> RF-04	O site deve permitir o acesso do usuario  cadastrado.<br/>|
 |Objetivo do Teste |Verificar a possibilidade do usuário realizar o login|
-|Passos |1) Acessar o navegador <br/> 2) Acessar o site <br/> 3) Na tela inicial clicar em "Acessar"<br/> 4) Informar os campos solicitados: Email e senha <br/> 5) Clicar em "Acessar" |
-|Critérios de Êxito |Ao serem informados os dados cadastrados anteriormente, o usuário será direcionado para a página home |
-|Resultados obtidos |Requisito atendido - Ao acessar o site foi possivel acessar por meio de email e senha pré cadastrados |
+|Passos |1) Acessar o navegador <br/> 2) Acessar o site <br/> 3) Na tela inicial clicar em "Entrar"<br/> 4) Informar os campos solicitados: Email e senha <br/>  |
+|Critérios de Êxito |Ao serem informados os dados cadastrados anteriormente, o usuário será direcionado para a página inicial "bem vindo |
+|Resultados obtidos |Chmado solicitado - onde o usuario poderá iniciar o chamdo de um serviço |
 
-|**Caso de Teste** |**CT-03 - Cadastrar Medicação**| 
+|**Caso de Teste** |**CT-03 - Cadastrar Serviço**| 
 |---|----|
-|Requisitos Associados |RF-07 O site deve possuir uma tela de cadastro de medicamentos.<br/> RF-09 O site deve possuir uma tela para cadastro do medicamento do paciente.|
-|Objetivo do Teste | Verifica a possibilidade do usuário cadastrar medicações |
-|Passos |1) Acessar o navegador <br/> 2) Acessar o site <br/> 3) Na tela inicial clicar em "Acessar"<br/> 4) Realizar Login <br/> 5) Clicar em "Medicamentos" <br/> 6) Preencher todos os campos disponiveis <br/> 7) Clicar em "Salvar" |
-|Critérios de Êxito | Os dados cadastrados devem ser salvos no banco de dados <br/>Ao acessar "Medicamentos" o medicamento cadastrado deve ser exibido |
-|Resultados obtidos | Requisito atendido  - Por meio do link na barra de ferramentas, é possivel cadatrar medicamentos |
+|Requisitos Associados |RF-07 O site deve possuir uma tela de cadastro de chamados solicitados pelo motorista.<br/> RF-09 O site deve possuir uma tela para cadastro do serviço prestado ao empreendedor.|
+|Objetivo do Teste | Verifica a possibilidade do usuário cadastrar serviços |
+|Passos |1) Acessar o navegador <br/> 2) Acessar o site <br/> 3) Na tela inicial clicar em "Acessar"<br/> 4) Realizar Login <br/> 5) Clicar em "Serviços" <br/> 6) Preencher todos os campos disponiveis <br/> 7) Clicar em "Salvar" |
+|Critérios de Êxito | Os dados cadastrados devem ser salvos no banco de dados <br/>Ao acessar "Serviços"  para verificar informaçoes sobre o serviço, podendo adicionar ou alterar o serviço prestado |
+|Resultados obtidos | Requisito atendido  - Por meio do link na barra de ferramentas, é possivel configurar a conta |
 
 
 
