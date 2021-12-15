@@ -53,8 +53,8 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 # Acesso ao sql 
 passando os paramentros a baixo, ja consegue ter acesso a base onde se emncontram  introduzidos os dados de prestador e usuario.
 
-Host : ec2-34-235-152-111.compute-1.amazonaws.com
-Username : site
-Passworld : gerald
-Post :  3306
-DataBase : site
+Host : ec2-34-235-152-111.compute-1.amazonaws.com<br>
+Username : site  <br>
+Passworld : gerald<br>
+Post :  3306<br>
+DataBase : site<br>
