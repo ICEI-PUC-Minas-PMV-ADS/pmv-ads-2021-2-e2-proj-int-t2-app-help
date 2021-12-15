@@ -50,3 +50,11 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 # Apresentação
 
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>
+# Acesso ao sql 
+passando os paramentros a baixo, ja consegue ter acesso a base onde se emncontram  introduzidos os dados de prestador e usuario.
+
+Host : ec2-34-235-152-111.compute-1.amazonaws.com
+Username : site
+Passworld : gerald
+Post :  3306
+DataBase : site
