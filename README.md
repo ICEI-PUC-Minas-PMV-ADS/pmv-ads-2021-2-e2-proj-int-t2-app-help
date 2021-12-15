@@ -56,5 +56,5 @@ passando os paramentros a baixo, ja consegue ter acesso a base onde se emncontra
 Host : ec2-34-235-152-111.compute-1.amazonaws.com<br>
 Username : site  <br>
 Passworld : gerald<br>
-Post :  3306<br>
+Porta:  3306<br>
 DataBase : site<br>
